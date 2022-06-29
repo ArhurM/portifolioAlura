@@ -196,3 +196,17 @@
     #p-title {
         font-weight: 700;
     }
+
+    #p-descricao {
+        text-align: justify;
+        align-items: baseline;
+    }
+
+    @media screen  (max-width: 1024 px) {
+        .row {
+            
+            flex-wrap: nowrap;
+       
+          }
+        
+    }
